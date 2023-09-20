@@ -164,10 +164,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 130729189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f601f7f21bcebdb4db38606059afae95, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ee717fae1a347dfa94a980e1da69563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandBuffer: {fileID: 11400000, guid: 81f9698cb52739a4282f3c8f3f8415e0, type: 2}
+  _cubePref: {fileID: 488761519654120191, guid: bc38e0cb6f589485f93ab45737953a3d,
+    type: 3}
+  minFPS: 0
 --- !u!1 &1046465447
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +182,6 @@ GameObject:
   - component: {fileID: 1046465451}
   - component: {fileID: 1046465450}
   - component: {fileID: 1046465449}
-  - component: {fileID: 1046465448}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -188,19 +189,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1046465448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046465447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87af4a334b9d278418eeeffa1bbb266a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  commandBuffer: {fileID: 11400000, guid: 81f9698cb52739a4282f3c8f3f8415e0, type: 2}
 --- !u!65 &1046465449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -291,7 +279,6 @@ GameObject:
   - component: {fileID: 1951352056}
   - component: {fileID: 1951352055}
   - component: {fileID: 1951352054}
-  - component: {fileID: 1951352058}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -377,16 +364,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1951352058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951352053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87af4a334b9d278418eeeffa1bbb266a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  commandBuffer: {fileID: 11400000, guid: 81f9698cb52739a4282f3c8f3f8415e0, type: 2}
